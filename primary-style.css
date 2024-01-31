@@ -1,0 +1,144 @@
+/* -------------------- */
+/* Global Decleration */
+/*-------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*debugging */
+    border: 1px solid blue;
+
+
+    /* global defauit font */
+    font-family: sans-serif;
+    color: black;
+}
+
+body {
+    background-color: beige;
+    overflow: hidden;
+}
+
+p {
+    color: black;
+    font-size: medium;
+}
+
+button {
+    outline: none;
+    background-color: beige;
+    font-size: medium;
+}
+
+h1, h2 {
+    color: darkred;
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+/* -------------------- */
+/*Outer-Container Section*/
+/*-------------------- */
+
+
+.outer-container {
+    padding: 10px;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+/* -------------------- */
+/* Top-Bar Container */
+/*-------------------- */
+
+.top-bar p {
+    float: right;
+}
+
+/* -------------------- */
+/* Inner-Container Section */
+/*-------------------- */
+.inner-container {
+    background: beige;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* -------------------- */
+/* Header/Quiz intro section */
+/*-------------------- */
+
+.quiz-intro , main {
+   margin-bottom: 30vh; 
+   margin-left: 10%;
+   margin-right: 10%;
+   background-color: beige;
+}
+
+.quiz-intro p {
+  text-align: center;
+}
+
+.quiz-intro button {
+    display:block;
+    margin: 0 auto;
+}
+
+/* -------------------- */
+/* Main Quiz Content */
+/*-------------------- */
+
+
+main{
+    display: block;
+
+}
+
+/* -------------------- */
+/* Question  Screen */
+/*-------------------- */
+
+.question-screen {
+   margin: auto;
+}
+
+
+
+/* -------------------- */
+/* Quiz Finish Screen */
+/*-------------------- */
+
+
+.quiz-finish-screen {
+    display: block;
+}
+ /* -------------------- */
+/* Quiz Finish Screen */
+/*-------------------- */
+
+.highscores-screen {
+    display :block
+}
+
+.highscores-screen ol {
+    overflow: scroll;
+    max-height: 200px;
+}
+
+.highscores-screen ol[height=200px ] {
+    overflow-y: scroll;
+}
+
+.hidden {
+display: none ;
+}
